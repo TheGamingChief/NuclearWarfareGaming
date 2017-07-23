@@ -1,13 +1,13 @@
 /*
 	ESSV3 Client Side Config
-	
+
 	For detailed information about these variables see:
 	https://github.com/ebayShopper/ESSV3/blob/master/DOCUMENTATION.md
 */
 
 class_selection = true; //Enable class selection dialog
 #define START_ITEMS "ItemSodaRabbit","foodbeefCooked","ItemBandage","ItemBloodbag","bloodTester","ItemPainkiller"
-#define TOOLBELT_ITEMS "ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemFlashlight","ItemFishingPole","ItemMachete"
+#define TOOLBELT_ITEMS "ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemFlashlight","ItemFishingPole","ItemMachete","ItemToolbox"
 class_public = [ // These are visible to anyone on the server
 	[(localize "str_playerstats_bandit")+" Lvl1","Bandit1_DZ","SurvivorW2_DZ",[START_ITEMS,"45Rnd_545x39_RPK","30Rnd_9x19_UZI_SD",3],["AKS_74_U","UZI_SD_EP1",TOOLBELT_ITEMS],"DZ_Czech_Vest_Pouch",[],[],0,-5000,0,""],
 	[(localize "str_playerstats_bandit")+" Lvl2","GUE_Soldier_Crew_DZ","SurvivorW2_DZ",[START_ITEMS,"gms_k98_mag",2,"30Rnd_9x19_UZI_SD",3],["gms_k98","UZI_SD_EP1",TOOLBELT_ITEMS],"DZ_Czech_Vest_Pouch",[],[],0,-8000,0,""],
@@ -84,9 +84,9 @@ spawn_public = switch (toLower worldName) do {
 			[localize "str_disp_srvsetup_random",[[5411,16676,0],[1511,11479,0],[12231,16319,0],[6946,17385,0],[12862,14850,0],[4672,14940,0],[2720,12226,0],[4104,13026,0],[1461,10584,0],[10283,18449,0],[10709,17085,0]],0,0,1],
 			["Seltishafen",[5411,16676,0],0,0],
 			["Hubel",[1511,11479,0],0,0],
-			["Lausen",[12231,16319,0],0,0],	
+			["Lausen",[12231,16319,0],0,0],
 			["Seewen",[6946,17385,0],0,0],
-			["Bunig",[12862,14850,0],0,0],	
+			["Bunig",[12862,14850,0],0,0],
 			["Bubendorf",[4672,14940,0],0,0],
 			["Hindelbank",[2720,12226,0],0,0],
 			["Huttwil",[4104,13026,0],0,0],
